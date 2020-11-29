@@ -6,10 +6,10 @@ function contador(){
     conta++;
     document.getElementById("numeros").innerHTML = conta; 
     if (conta == 10) {
-       alert(`Você já clickou ${conta} vezes, não está me ouvindo...`);
+       alert(`Você já clicou ${conta} vezes, não está me ouvindo...`);
     }
     if (conta == 15) {
-      alert(`Você já clickou ${conta} vezes, não reclame se algo de errado acontecer...`);
+      alert(`Você já clicou ${conta} vezes, não reclame se algo de errado acontecer...`);
    }
    if (conta == 20) {
       alert(`Cara, ${conta} vezes? Eu não vou falar mais nada.`);
@@ -21,7 +21,7 @@ function contador(){
       alert(`${nome}, eu acabei de falar com você, assim fica complicado...`);
    }
    if (conta == 23) {
-      alert(`Quer saber ${nome}? clicka mais, eu não vou me importar mais com isso!`);
+      alert(`Quer saber ${nome}? clica mais, eu não vou me importar mais com isso!`);
    }
    if (conta == 40) {
       alert(`Isso ${nome}, continue.`);
