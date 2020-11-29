@@ -9,7 +9,7 @@ function contador(){
        alert(`Você já clickou ${conta} vezes, não está me ouvindo...`);
     }
     if (conta == 15) {
-      alert(`Você já clickou ${conta} vezes, não reclame se algo de arrado acontecer...`);
+      alert(`Você já clickou ${conta} vezes, não reclame se algo de errado acontecer...`);
    }
    if (conta == 20) {
       alert(`Cara, ${conta} vezes? Eu não vou falar mais nada.`);
@@ -29,8 +29,14 @@ function contador(){
    if (conta == 50) {
       var explosion = document.getElementById("botaov").src = './img/explosion.png';
       document.getElementById("aviso").innerHTML = `É ${nome}, você me destruiu, feliz agora? eu te avisei... :(`
+      var delay=2000;
+      setTimeout(function(){
+         document.getElementById("all_").remove();
+      },delay);
       }
-     
+     if(conta == 51){
+        document.getElementById("all_").remove();
+     }
    }
  function change1(){
     var img = document.getElementById("botaov").src = './img/button-pressed.png';
